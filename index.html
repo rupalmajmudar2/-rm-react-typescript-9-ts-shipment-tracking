@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        #root {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            ;
+        }
+
+        #g-map {
+            flex: 1;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root">
+        <h1>Cargo Tracking App</h1>
+        <div id="g-map"></div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAF5pJD16KEFuJXsqC5I0fO5mLRXNtsQZo"></script>
+    <script src="./dist/bundle.js"></script>
+</body>
+
+</html>
