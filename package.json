@@ -7,7 +7,7 @@
     "build": "webpack --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "RM",
   "license": "ISC",
   "dependencies": {
     "@types/google.maps": "^3.52.0",
